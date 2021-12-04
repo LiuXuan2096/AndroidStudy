@@ -9,3 +9,9 @@ val Float.px
       this,
       Resources.getSystem().displayMetrics
   )
+
+val Float.dp
+  get() = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,this, Resources.getSystem().displayMetrics)
+
+val Int.dp
+  get() = this.toFloat().dp
