@@ -39,7 +39,7 @@ class MultilineTextView(context: Context?, attrs: AttributeSet?) : View(context,
             } else {
                 width.toFloat() - IMAGE_SIZE
             }
-            count = paint.breakText(text, start, text.length, true, maxWidth, measuredWidth)
+            count = paint.breakText(text, start, text.length, true, maxWidth, measeurWidth)
             canvas.drawText(text, start, start + count, 0f, verticalOffset, paint)
             start += count
             verticalOffset += paint.fontSpacing
