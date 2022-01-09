@@ -20,7 +20,7 @@ public class DemoService extends Service {
 
             @Override
             public String request(String data) throws RemoteException {
-                return "hello Binder";
+                return data;
             }
         };
     }

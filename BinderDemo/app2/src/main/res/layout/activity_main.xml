@@ -21,10 +21,25 @@
         android:layout_height="80dp"
         android:gravity="center"
         android:text="@string/start_messenger"
-        android:onClick="start"
+        android:onClick="startMessengerService"
         />
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/binder_editText"
+        android:gravity="center"
+        android:hint="@string/binder_hint"
+        android:layout_marginTop="10dp"
+        />
 
-
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/messenter_editText"
+        android:gravity="center"
+        android:hint="@string/messenger_hint"
+        android:layout_marginTop="10dp"
+        />
 
 </LinearLayout>
