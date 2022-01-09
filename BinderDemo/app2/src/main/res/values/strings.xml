@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">app2</string>
     <string name="start_service">启动服务</string>
+    <string name="start_messenger">通过Messenger获取</string>
 </resources>
